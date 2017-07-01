@@ -95,8 +95,8 @@ $("#device").change(function () {
 });
 
 //var wsUri = "ws://192.168.0.121:9000/compute_ws ";
-var wsUri = "ws://ec2-34-212-198-180.us-west-2.compute.amazonaws.com:8096/compute_ws ";
-var wsCPUUri = "ws://ec2-34-212-198-180.us-west-2.compute.amazonaws.com:8096/cpuinfo_ws ";
+var wsUri = "ws://127.0.0.1:9000/compute_ws ";
+var wsCPUUri = "ws://127.0.0.1:9000/cpuinfo_ws ";
 //var wsUri = "ws://echo.websocket.org/";
 
 

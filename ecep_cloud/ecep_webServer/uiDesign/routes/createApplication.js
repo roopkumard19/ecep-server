@@ -77,8 +77,8 @@ router.post('/', rfcal_upload.single('applicationFile'),function (req, res,next)
 
            var post_options = {
                //host: 'ec2-52-39-130-106.us-west-2.compute.amazonaws.com',
-               host: 'ec2-34-212-198-180.us-west-2.compute.amazonaws.com',
-               port: '8096',
+               host: '127.0.0.1',
+               port: '9000',
                path: '/handle_request',
                method: 'POST',
                headers: {

@@ -1,16 +1,16 @@
 {
-    "pid": 1884, 
+    "pid": 28424, 
     "options": {
-        "cbdir": "/home/ubuntu/final_Implementation_ECEP/ecep_server/ecep_cloud/ecep_wampServer/.crossbar", 
-        "cdc": false, 
-        "loglevel": "info", 
-        "logtofile": false, 
         "logformat": "standard", 
-        "command": "start", 
-        "logdir": null, 
+        "logtofile": false, 
+        "personality": "community", 
         "config": "config.json", 
+        "reactor": null, 
+        "logdir": null, 
+        "cbdir": "/home/roop/Desktop/ecep-server-master/ecep_cloud/ecep_wampServer/.crossbar", 
+        "command": "start", 
         "colour": "auto", 
-        "reactor": null
+        "loglevel": "info"
     }, 
     "argv": [
         "/usr/local/bin/crossbar", 

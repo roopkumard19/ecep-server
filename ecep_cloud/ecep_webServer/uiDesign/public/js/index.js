@@ -5,7 +5,7 @@
 
         //console.log(req.session.user);
 
-        ip="http://ec2-34-212-198-180.us-west-2.compute.amazonaws.com:8096";
+        ip="http://127.0.0.1:9000";
       <!-- For Pie chart -->
 
             // Load the Visualization API and the corechart package.
@@ -350,7 +350,7 @@ function loadContainerCount() {
 
     function loadDeviceList() {
         $.ajax({
-            url: "http://ec2-34-212-198-180.us-west-2.compute.amazonaws.com:8096/device?command=all",
+            url: "http://127.0.0.1:9000/device?command=all",
             type: "GET",
 
             crossDomain: true,

@@ -4,7 +4,7 @@
 
 $(document).ready(function(){
 
-    ip="http://ec2-34-212-198-180.us-west-2.compute.amazonaws.com:8096";
+    ip="http://127.0.0.1:9000";
     loadApplication();
  debugger;
     $("#device_app").change(function () {
